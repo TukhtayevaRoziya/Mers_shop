@@ -1,0 +1,58 @@
+.body {
+  display: flex;
+  padding: 50px;
+}
+
+.body .title {
+  width: 30%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.body .mainBlock {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-top: 100px;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 0) and (max-width: 500.9px) {
+  .body {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .body .title {
+    width: 80%;
+    text-align: center;
+    margin: 30px auto 0;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .body .mainBlock {
+    margin-top: 0;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (min-width:500px) and (max-width:1200.9px) {
+
+  .body .title{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .body .mainBlock {
+    margin-top: 0;
+  }
+}

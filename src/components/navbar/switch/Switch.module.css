@@ -1,0 +1,89 @@
+.switch {
+  width: 192px;
+  height: 50px;
+  border-radius: 23px;
+  border: 1px solid #e6e6e6;
+  background: #9ca2b0;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  margin: 0 20px;
+  padding: 9px 6px;
+  box-sizing: border-box;
+}
+
+.switch::after {
+  transition: left 0.2s ease;
+  position: absolute;
+  top: 0.4px;
+  left: 0.4px;
+  display: flex;
+  content: "";
+  background: #39546c;
+  width: 50%;
+  height: 48px;
+  border: 1px solid #9ca2b0;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.switch > span {
+  color: #000000;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 5;
+  text-transform: uppercase;
+  vertical-align: sub;
+}
+
+.switch .active {
+  color: white;
+  transition: 0.2s;
+}
+.switch.checked::after {
+  left: 49%;
+}
+
+.container {
+  text-align: center;
+  height: 100%;
+  height: 100%;
+  padding: 30px;
+}
+@media (min-width: 760px) and (max-width: 980.9px) {
+  .switch {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .switch::after {
+    height: 25px;
+  }
+  .switch > span {
+    font-size: 8px;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+@media (min-width: 981px) and (max-width: 1300px) {
+  .switch {
+    width: 100px;
+    height: 40px;
+    align-items: center;
+  }
+
+  .switch::after {
+    height: 35px;
+  }
+
+  .switch > span {
+    font-size: 10px;
+    height: 100%;
+    vertical-align: middle;
+  }
+}

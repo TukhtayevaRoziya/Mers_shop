@@ -1,0 +1,144 @@
+.body {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.body .info {
+  width: 40%;
+}
+
+.main {
+  width: 50%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.main h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.main p {
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #999999;
+}
+
+.body hr {
+  margin: 0 50px;
+}
+
+.inp_gr {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.inp_gr input {
+  width: 45%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black !important;
+  height: 50px;
+  margin-top: 1rem;
+  font-size: 20px;
+  color: #000;
+}
+
+.inp_gr input::placeholder,
+.message_inp::placeholder {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.message_inp {
+  outline: none;
+  border: none;
+  font-family: sans-serif;
+  border-bottom: 2px solid black !important;
+  margin-top: 40px;
+  height: 120px;
+  width: 100%;
+  font-size: 20px;
+  max-height: 120px;
+  max-width: 100%;
+  resize: none;
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+  width: 169px;
+  height: 54px;
+  background: #152a59;
+  border-radius: 0;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+  outline: none;
+  border: none;
+  margin: 0;
+}
+
+@media (min-width: 0) and (max-width: 1000.9px) {
+  .main {
+    width: 100%;
+  }
+  .btn {
+    margin: 0 auto;
+  }
+
+  .body hr {
+    display: none;
+  }
+
+  .body .info {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .body{
+    padding: 30px
+  }
+
+}
+
+@media (min-width: 1001px) and (max-width: 1249.9px) {
+  .body .info {
+    width: 38%;
+  }
+
+  .main {
+    width: 50%;
+  }
+}

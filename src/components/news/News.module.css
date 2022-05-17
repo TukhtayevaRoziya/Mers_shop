@@ -1,0 +1,89 @@
+.body {
+  height: 90vh;
+  background-image: url(../../assets//news/main.webp);
+  background-size: cover;
+}
+
+.textBlock {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 70px;
+  color: #152a59;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.textBlock .main {
+  width: 67%;
+  position: absolute;
+  height: auto;
+  padding: 43px 70px 2rem;
+  background-color: #fff;
+}
+
+.textBlock .main hr {
+  margin-top: 2px;
+  width: 20%;
+  height: 3px;
+  border-radius: 7px;
+}
+
+/* info */
+
+.info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoMain {
+  width: 58%;
+}
+
+.infoMain h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6a7d8e;
+  margin-bottom: 24px;
+}
+
+.infoMain p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6a7d8e;
+}
+
+@media (min-width: 0) and (max-width: 769.9px) {
+  .body {
+    height: 50vh;
+  }
+
+  .textBlock .main {
+    width: 95%;
+    padding: 20px 40px 2rem;
+    height: auto;
+  }
+
+  .textBlock {
+    font-size: 14px;
+    line-height: 38px;
+  }
+
+  .infoMain {
+    width: 76%;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1111.9px) {
+  .textBlock {
+    font-size: 18px;
+    line-height: 45px;
+  }
+}

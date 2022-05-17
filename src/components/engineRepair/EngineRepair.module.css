@@ -1,0 +1,26 @@
+.body img {
+  width: 100%;
+}
+
+.body .btn {
+  width: 50%;
+  margin: 44px auto;
+  height: 100%;
+  display: flex;
+}
+
+.body .btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 54px;
+  background: #152a59;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}

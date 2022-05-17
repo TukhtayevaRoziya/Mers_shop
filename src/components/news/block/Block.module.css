@@ -1,0 +1,138 @@
+.body {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.jumbotronPostDesc {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.jumbotronPostDesc h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+
+  color: #ffffff;
+}
+
+.jumbotronPostDesc p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+
+.jumbotronPost {
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 623px;
+  transition-duration: 200ms;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  justify-content: center !important;
+
+  display: flex !important;
+}
+
+.jumbotronPostParent {
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+@media (min-width: 0) and (max-width: 769.9px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .jumbotronPost {
+    height: 400px;
+    width: 100%;
+  }
+
+  .jumbotronPostDesc {
+    width: 80%;
+  }
+
+  .jumbotronPostDesc h3 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  .jumbotronPostParent {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1111.9px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jumbotronPost {
+    height: auto;
+    width: 70%;
+    padding: 4rem 0;
+  }
+
+  .jumbotronPostDesc h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .jumbotronPostParent {
+    width: 80%;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1112px) and (max-width: 1330.9px) {
+  .jumbotronPost {
+    width: 48%;
+  }
+
+  .jumbotronPostParent {
+    width: 48%;
+  }
+
+  .row {
+    justify-content: space-around;
+  }
+}

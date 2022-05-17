@@ -1,0 +1,98 @@
+.account__book {
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+  padding: 21px 24px;
+}
+
+.book__header {
+  width: 100%;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 23px;
+}
+
+.book__header > h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 3px;
+}
+
+.book__container {
+  padding: 21px 28px;
+  width: 384px;
+  height: auto;
+  min-height: 175px;
+  border: 1px solid #ff0000;
+}
+
+.user__fullname {
+  width: 100%;
+  border-bottom: 1px dashed #bdbdbd;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.book__container > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 14px;
+}
+
+.user__fullname > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding-top: 3px;
+  color: #6a7d8e;
+  margin-left: 13px;
+}
+
+.user__options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.user__options > button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.user__options > button:first-child {
+  color: #00e376;
+}
+
+.user__options > button:nth-child(2) {
+  color: #152a59;
+}
+
+.user__options > button:last-child {
+  color: red;
+}
+
+.user__options button > svg {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+@media (min-width: 0) and (max-width: 700.9px) {
+  .book__container {
+    width: 100%;
+    margin: 0 auto 1rem;
+  }
+
+  .user__options {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,24 @@
+.account__empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.account__empty > h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.empty__buy{
+    padding: 15px 52px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    background: #152A59;
+    text-align: center;
+    margin-top: 27px;
+}

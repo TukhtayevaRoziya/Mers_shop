@@ -1,0 +1,12 @@
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+@media (min-width:0) and (max-width:1240.9px) {
+    .body{
+        flex-wrap: wrap;
+    }
+    
+}

@@ -1,0 +1,59 @@
+.product__cell div {
+  display: flex;
+  padding: 25px 0px;
+}
+
+.product__cell > div > p {
+  padding-left: 20px;
+  width: 40%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.cell__counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cell__counter > button {
+  width: 30px;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+.product__cell {
+  padding-left: 40px;
+}
+
+.product__item {
+  border-bottom: 1px dashed #ccc;
+}
+
+.cell__check {
+  text-align: center;
+}
+
+.product__cell__image{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+@media (min-width: 0) and (max-width: 700.9px) {
+
+  .product__item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product__block{
+      width: 78% !important;
+  }
+  .product__cell{
+      width: 25%;
+  }
+}

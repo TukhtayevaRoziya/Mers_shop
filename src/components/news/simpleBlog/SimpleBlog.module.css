@@ -1,0 +1,12 @@
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 10px;
+}
+
+@media (min-width:0) and (max-width:769.9px) {
+  .body {
+    flex-direction: column;
+    padding: 0px 5px;
+  }
+}

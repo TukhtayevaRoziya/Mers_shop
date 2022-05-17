@@ -1,0 +1,131 @@
+.body {
+  background-color: #f8f8f8;
+  display: flex;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.featuredProducts__mainBlock {
+  width: 30%;
+}
+
+.carousel {
+  width: 300px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.carousel_main {
+  border: 3px solid rgb(138, 52, 52);
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.darkBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 30px 10px 10px;
+
+  width: 196px;
+  height: auto;
+
+  background: rgba(0, 0, 0, 0.7);
+  font-style: normal;
+  color: #ffffff;
+  box-sizing: border-box;
+  margin: auto 0 40px 30px;
+}
+
+.darkBox h3 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+
+.featuredProducts__buttonWrapper{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 60%;
+}
+
+.disable{
+  background: #BDBDBD;
+}
+
+
+.featuredProducts__buttonWrapper button.featuredProducts__button, .disable{
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+.featuredProducts__buttonWrapper button.featuredProducts__button {
+  background: #152a59;
+}
+
+.darkBox strong {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+
+.body .picture_group img {
+  width: 60%;
+  margin-left: 20px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.picture_group {
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  width: 70%;
+  margin-left: 0rem;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 0) and (max-width: 500.9px) {
+  .body {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .carousel {
+    margin-top: 2rem;
+    width: 80%;
+  }
+
+  .body .picture_group img {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  .picture_group {
+    width: 80%;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1240.9px) {
+  .carousel {
+    width: 30%;
+    height: 350px;
+  }
+}

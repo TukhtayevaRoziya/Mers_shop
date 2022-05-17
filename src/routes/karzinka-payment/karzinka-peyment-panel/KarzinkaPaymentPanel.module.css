@@ -1,0 +1,132 @@
+.karzinka__paymentpanel{
+    width: 100%;
+    height: calc(100vh - 97px);
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel__container{
+    width: 625px;
+    min-width: 625px;
+    min-height: 504px;
+    height: 504px;
+    background-color: #fff;
+    box-shadow: 0px 2px 60px 2px rgba(0, 0, 0, 0.05);
+    padding: 32px 38px;
+}
+
+.panel__form{
+    width: 100%;
+}
+
+.panel__form > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.panel__form input{
+    border: 1px solid #C4C4C4;
+    outline: none;
+    text-indent: 10px;
+
+}
+
+.panel__form input::-webkit-inner-spin-button{
+    display: none;
+}
+
+.container__title > h1{
+    flex: 1;
+}
+
+.container__title{
+    padding-bottom: 8px;
+    width: 100%;
+    border-bottom: 1px solid #D0D0D0;
+    display: flex;
+    align-items: center;
+}
+
+.payment__type{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+.card__visa{
+    margin-left: 30px;
+}
+
+.card__master{
+    margin-left: 37px;
+}
+
+.payment__type > input{
+    margin-right: 10px;
+    transform: scale(1.5);
+
+}
+
+.payment__type > img:first-child{
+    margin-right: 47px;
+}
+
+
+.card__number > input{
+    margin-left: 30px;
+    width: 226px;
+    height: 29px;
+}
+
+.card__expirations{
+    padding-left: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.card__expirations > input{
+    width: 86px;
+    height: 29px;
+}
+
+.card__month{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.card__year{
+    margin-left: 10px;
+}
+
+
+.card__cvv > div{
+    width: auto;
+    margin-left: 10px;
+}
+
+.card__cvv > label{
+    padding-left: 35px;
+    width: 40%;
+    padding-top: 20px;
+}
+
+.card__cvv > div input{
+    width: 86px;
+    height: 29px;
+}
+
+.card__cvv > div p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ACACAC;
+    width: 95%;
+    padding-bottom: 11px;
+}

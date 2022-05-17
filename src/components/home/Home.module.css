@@ -1,0 +1,6 @@
+.body{
+    height: 100vh;
+    background-image: url(../../assets/home/main.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

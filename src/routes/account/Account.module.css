@@ -1,0 +1,20 @@
+.account__main {
+  margin-top: 96px;
+  width: 100%;
+  height: auto;
+}
+
+.account__container {
+  width: 94%;
+  height: auto;
+  background-color: #fff;
+  margin: 40px auto 75px auto;
+  display: flex;
+}
+
+@media (min-width: 0) and (max-width: 1250.9px) {
+  .account__container {
+    flex-direction: column;
+    height: auto;
+  }
+}

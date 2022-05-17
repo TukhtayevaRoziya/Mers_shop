@@ -1,0 +1,129 @@
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mostPopular {
+  background: #282828;
+  padding: 1.5rem !important;
+  margin-top: 3rem !important;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.main {
+  display: flex;
+  align-items: center !important;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.block {
+  margin-right: auto !important;
+}
+
+.mostPopularLeft {
+  align-items: center !important;
+  display: flex !important;
+  flex: 1 0 0%;
+}
+
+.btn_group {
+  align-items: center !important;
+
+  display: flex !important;
+}
+
+.mostPopularRight {
+  display: flex !important;
+
+  flex: 1 0 0%;
+}
+
+.prevStyle,
+.nextStyle {
+  background-color: #282828;
+  border: 1px solid #fff;
+  padding: 4px 7px 6px 7px;
+  margin-right: 10px;
+  color: #f8f9fa;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mostPopularLeft svg,
+.title {
+  color: #fff;
+}
+
+.title b {
+  margin-left: 11px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+/*  */
+
+.featuredParent {
+  background: #222222;
+  padding: 0 20px 40px
+}
+
+.featured {
+  padding: 15px 10px;
+}
+
+.featuredRed {
+  margin: 0;
+  font-size: 18px;
+  color: red;
+}
+.featuredTitle {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #FFFFFF;
+  margin: 6px 0 15px
+}
+
+.featuredText {
+  font-size: 15px;
+  color: #999999;
+}
+.link,
+.link:hover,
+.link:active,
+.link:focus,
+.link:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover .featuredTitle {
+  text-decoration: underline;
+}
+
+.link:hover .jumbotronPostDesc h3 {
+  text-decoration: underline;
+}
+
+/* 
+
+
+*/

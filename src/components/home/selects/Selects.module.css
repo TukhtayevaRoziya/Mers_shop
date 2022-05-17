@@ -1,0 +1,42 @@
+.body {
+  background-color: #c4c4c4;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.body a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+@media (min-width: 0) and (max-width: 769.9px) {
+  .body {
+    background: transparent;
+    overflow: auto;
+    height: 140px;
+    justify-content: inherit;
+  }
+
+  .body a {
+    font-size: 10px;
+    margin: 0 17.5px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1200.9px) {
+  .body {
+    overflow: auto;
+    display: flex;
+  }
+  .body a {
+    width: 40%;
+  }
+}

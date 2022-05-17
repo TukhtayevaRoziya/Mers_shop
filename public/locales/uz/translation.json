@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "product": "Mahsulotlarimiz",
+    "contact": "Aloqa",
+    "login": "Kirish",
+    "news": "Yangiliklar"
+  }
+}

@@ -1,0 +1,138 @@
+.title {
+  width: 100%;
+}
+
+.title2 {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.title a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #6a7d8e;
+  transition: 0.3s all linear;
+  width: 25%;
+  text-align: center;
+}
+
+.main {
+  width: 48%;
+  display: grid;
+  align-content: flex-start;
+}
+
+.main > form{
+  width: 100%;
+  display: grid;
+  align-content: flex-start;
+}
+
+.main a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #6a7d8e;
+}
+
+.main p {
+  cursor: pointer;
+}
+
+.main label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #586870;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.main input {
+  background: rgba(255, 255, 255, 0.4);
+  border: 0.5px solid #c0c6c9;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 35px;
+  outline: none;
+  padding: 0 0.5rem;
+}
+
+.main input::-webkit-inner-spin-button{
+  display: none;
+}
+
+.main button {
+  width: 87px;
+  height: 34px;
+  background: linear-gradient(89.61deg, #152a59 0.33%, #2e4372 99.69%);
+  opacity: 0.5;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 30px auto 0;
+}
+
+.main hr {
+  width: 1px;
+
+  background-color: linear-gradient(
+    90deg,
+    rgba(192, 198, 201, 0) -1.93%,
+    #c0c6c9 53.79%,
+    rgba(192, 198, 201, 0) 104.71%
+  );
+
+  height: 100%;
+  margin: 0 0 0 100%;
+}
+
+.helpers {
+  width: 40%;
+}
+
+.instructor{
+  padding-top: 10px;
+}
+
+@media (min-width: 0) and (max-width: 500.9px) {
+  .title2 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .title2 a{
+    font-size: 14px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .helpers {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1000.9px) {
+  .title2 {
+    width: 60%;
+  }
+}

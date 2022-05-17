@@ -1,0 +1,12 @@
+.body {
+  display: flex;
+  padding: 80px 30px 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 0) and (max-width: 500.9px) {
+  .body {
+    justify-content: space-around;
+  }
+}

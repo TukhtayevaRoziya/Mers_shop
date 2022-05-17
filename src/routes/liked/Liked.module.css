@@ -1,0 +1,13 @@
+.liked{
+  margin: 150px;
+}
+
+.likedproduct{
+  margin: 20px 0px;
+  display: flex;
+}
+
+.likedproduct > img{
+  width: 250px;
+  margin-right: 30px;
+}

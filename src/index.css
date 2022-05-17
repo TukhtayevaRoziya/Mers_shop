@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("./assets//fonts/Calibri\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "Calibri Bold";
+  src: url("./assets//fonts/Calibri\ Bold.TTF");
+}
+
+:root {
+  --main-font-family: "Calibri";
+  --main-font-family-bold: "Calibri Bold";
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
+
+body {
+  font-family: var(--main-font-family);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(255, 255, 255), rgb(49, 49, 49));
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.thumbs-wrapper.axis-vertical {
+  display: none;
+}
+
+::-moz-selection {
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+}
+::selection {
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+}
+
+.AllProducts_card_group__0QPBG .Helpers_CardProduct__x9FrD {
+  width: 16.7% !important;
+}

@@ -1,0 +1,17 @@
+.body {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 40px;
+  align-items: center;
+}
+
+.body div {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}

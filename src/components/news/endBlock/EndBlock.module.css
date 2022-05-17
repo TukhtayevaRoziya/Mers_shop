@@ -1,0 +1,84 @@
+.mainBody {
+  display: flex;
+  margin-bottom: 2rem
+}
+
+.subscribeBackground {
+  background-color: #000;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.subscribeParent {
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+  background: url(../../../assets//news/endMain.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  align-items: center !important;
+
+  flex-direction: column !important;
+  display: flex !important;
+}
+
+.subscribeParent h5 {
+  /* color: #DCDCDC; */
+  color: #dcdcdc;
+
+  font-size: 1.25rem;
+
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 33px;
+  margin: 2px 0 18px;
+}
+
+.form {
+  align-items: flex-end !important;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+  flex-direction: column !important;
+  display: flex !important;
+}
+
+.subscribeInputEmail {
+  padding: 12px 125px 13px 20px;
+  border-radius: 30px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.6);
+  color: #fff;
+
+  outline: none;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.subscribeSubmitButton {
+  padding: 10px 30px;
+  background-color: #152a59;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  position: relative;
+  bottom: 42px;
+  outline: none;
+}

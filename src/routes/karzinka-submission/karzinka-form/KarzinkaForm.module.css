@@ -1,0 +1,77 @@
+.karzinka__form{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_wrapper > div{
+    width: 100%;
+    display: flex;
+    width: 280px;
+    margin-top: 36px;
+}
+
+.btn_wrapper > div input{
+    margin-right: 10px;
+}
+
+.form__collection{
+    width: 100%;
+    
+}
+
+.form__collection > li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 12px 0px;
+}
+
+.form__collection > li > label{
+    width: 200px;
+    min-width: 200px;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 19.53px;
+    white-space: nowrap;
+    /* max-width: 105px; */
+}
+
+.form__collection > li > label > span{
+    color: red;
+}
+
+.form__collection > li > input{
+    width: 75%;
+    min-width: 75%;
+    height: 50px;
+    border: 1px solid #C5C5C5;
+    text-indent: 10px;
+    outline: none;
+}
+
+.form__collection > li:first-child{
+    width: calc(50% - 20px);
+}
+
+
+.form__name{
+    margin-right: 30px;
+}
+
+
+.btn_wrapper{
+    width: 80%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.validation__ins{
+    color: red;
+    margin-left: 14%;
+}

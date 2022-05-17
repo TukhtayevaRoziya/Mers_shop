@@ -1,0 +1,85 @@
+/* navbar */
+
+.Navbar_menu_items__2Kt-6 .active {
+  font-weight: 700;
+  border-bottom: 2px solid #ffffff;
+}
+
+.Sign_title2__slK09 .active {
+  color: #00c2ff !important;
+  border-bottom: 2px solid transparent;
+  border-image: radial-gradient(
+    1125% 55200.1% at 59.37% -450%,
+    #00c2ff 0%,
+    rgba(0, 194, 255, 0) 100%
+  );
+  -moz-border-image: -moz-radial-gradient(
+    1125% 55200.1% at 59.37% -450%,
+    #00c2ff 0%,
+    rgba(0, 194, 255, 0) 100%
+  );
+  -webkit-border-image: -webkit-radial-gradient(
+    1125% 55200.1% at 59.37% -450%,
+    #00c2ff 0%,
+    rgba(0, 194, 255, 0) 100%
+  );
+  border-image-slice: 1;
+}
+
+@media (min-width: 0) and (max-width: 500.9px) {
+  .FeaturedProducts_body__3wZ8F .Helpers_title__esHNq,
+  .FeaturedProducts_body__3wZ8F .Helpers_title__esHNq h1,
+  .FeaturedProducts_body__3wZ8F .Helpers_title__esHNq h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .AllProducts_card_group__0QPBG .Helpers_CardProduct__x9FrD {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800.9px) {
+  .AllProducts_card_group__0QPBG .Helpers_CardProduct__x9FrD {
+    width: 45%;
+    margin: 0 0 30px 0;
+  }
+
+  .AllProducts_card_group__0QPBG
+    .Helpers_CardProduct__x9FrD
+    .Helpers_stars__-WzZs {
+    font-size: 19px;
+  }
+  .AllProducts_card_group__0QPBG .Helpers_CardProduct__x9FrD h1 {
+    width: 80%;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1240.9px) {
+  .FeaturedProducts_body__3wZ8F .Helpers_title__esHNq {
+    margin-right: 2rem;
+  }
+
+  .AllProducts_card_group__0QPBG .Helpers_CardProduct__x9FrD {
+    width: 30%;
+    margin: 0 0 30px 0;
+  }
+}
+
+@media (min-width: 1241px) and (max-width: 1300.9px) {
+  .AllProducts_card_group__0QPBG
+    .Helpers_CardProduct__x9FrD
+    .Helpers_stars__-WzZs {
+    font-size: 21px;
+  }
+
+  .AllProducts_card_group__0QPBG .Helpers_CardProduct__x9FrD h1 {
+    font-size: 13px;
+  }
+  .AllProducts_card_group__0QPBG .Helpers_CardProduct__x9FrD {
+    margin: 0;
+  }
+}

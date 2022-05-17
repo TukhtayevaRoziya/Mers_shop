@@ -1,0 +1,49 @@
+.product__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table__head {
+  width: 100%;
+  background-color: #f6f6f6;
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.table__head > tr > th {
+  white-space: nowrap;
+  padding: 30px 40px;
+}
+
+.table__head > tr > th:first-child {
+  padding: 0px;
+}
+
+.table__body > tr td:first-child {
+  padding: 36px 10px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table__body > tr td:first-child > div input {
+  transform: scale(2);
+}
+
+.table__body::before {
+  content: "";
+  display: block;
+  height: 40px;
+}
+@media (min-width: 0) and (max-width: 850.9px) {
+  .table__head {
+    display: none;
+  }
+
+  .table__body > tr td:first-child {
+    width: 10%;
+  }
+}

@@ -1,0 +1,41 @@
+.body {
+  display: flex;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.scroll {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.popularProducts__mainBlock {
+  width: 30%;
+}
+
+.popularProducts__buttonWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 60%;
+}
+
+.disable {
+  background: #bdbdbd;
+}
+
+.popularProducts__buttonWrapper button.popularProducts__button,
+.disable {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+.popularProducts__buttonWrapper button.popularProducts__button {
+  background: #152a59;
+}

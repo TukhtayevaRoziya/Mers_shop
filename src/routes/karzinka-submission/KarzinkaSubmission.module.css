@@ -1,0 +1,97 @@
+.submission__container{
+    width: 94%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__form{
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+.form__title{
+    margin: 40px 0px 19px 0px;
+}
+
+.form__title > svg{
+    font-size: 15px;
+    color: #959595;
+}
+
+.line{
+    width: 100%;
+    height: 1px ;
+    background-color: #BABABA;
+    margin-bottom: 51px;
+}
+
+.payment__methodadd{
+    width: 300px;
+    margin-top: -50px;
+}
+
+.payment__agreement{
+    display: flex;
+    margin-top: 20px;
+}
+
+.payment__agreement > input{
+    transform: scale(1.5);
+    margin-right: 10px;
+    font-size: 20px;
+    color: #969696;
+}
+
+.payment__agreement > p{
+    margin-top: -5px;
+}
+
+
+.payment__agreement > p > a{
+    color: #000;
+}
+
+.provider{
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+
+.provider > input{
+    margin-right: 20px;
+    transform: scale(1.5);
+}
+
+.provider > img{
+    margin-right: 10px;
+}
+
+.payment__providers{
+    height: 160px;
+}
+
+
+.total{
+    margin-top: 35px;
+    margin-bottom: 65px;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.total > h2{
+    margin-right: 70px;
+}
+
+.total > p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #969696;
+}
+
+.total > p span{
+    color: #000;
+}

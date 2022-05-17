@@ -1,0 +1,12 @@
+.checkout__product_recommendations{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    margin: 25px auto 80px auto;
+    display: flex;
+    overflow-y: auto;
+}
+
+.checkout__product_recommendations div:first-child{
+    margin-left: 0px ;
+}

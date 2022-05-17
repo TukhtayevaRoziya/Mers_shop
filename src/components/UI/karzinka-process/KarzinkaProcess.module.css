@@ -1,0 +1,65 @@
+.karzinka__process {
+  width: 60%;
+  margin: 0px auto;
+  height: 50px;
+}
+
+.karzinka__collection {
+  /* margin-top: 64px; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection__item {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #808080;
+  font-family: var(--main-font-family-bold);
+}
+
+.collection__item > a {
+  margin-left: 14px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.collection__item > svg {
+  font-size: 25px;
+}
+
+.process__active {
+  color: #000;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  margin: 0px 10px;
+}
+
+@media (min-width: 0) and (max-width: 700.9px) {
+  .karzinka__process{
+    width:90%;
+  }
+  .karzinka__collection {
+    overflow: auto;
+  }
+
+  .collection__item{
+      margin: 0 1rem;
+  }
+
+  .collection__item > span {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1240.9px) {
+  .karzinka__process {
+    width: 90%;
+  }
+  
+}
